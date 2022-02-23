@@ -1,0 +1,22 @@
+{
+  "name": "fed-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/composition": "2.0.0-alpha.6",
+    "@apollo/federation-internals": "^2.0.0-alpha.6",
+    "graphql": "^16.0.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
